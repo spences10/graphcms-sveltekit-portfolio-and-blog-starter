@@ -1,7 +1,11 @@
 <script context="module">
+  import { page } from '$app/stores'
+  import Head from '$components/head.svelte'
   import { client } from '$lib/graphql-client'
   import { authorsQuery } from '$lib/graphql-queries'
+  import { siteMetadataStore } from '$stores/site-metadata'
   import { marked } from 'marked'
+  import { onMount } from 'svelte'
 
   export const load = async () => {
     const { authors } = await client.request(authorsQuery)
@@ -16,17 +20,31 @@
 
 <script>
   export let authors
+  let pathname
+
+  onMount(async () => {
+    pathname = $page.url.pathname
+  })
   const {
     name,
     intro,
     bio,
     picture: { url },
   } = authors[0]
+
+  const {
+    siteUrl,
+    name: siteName,
+    openGraphDefaultImage,
+  } = $siteMetadataStore
 </script>
 
-<svelte:head>
-  <title>My Portfolio project | About {name}</title>
-</svelte:head>
+<Head
+  title={`About · ${siteName}`}
+  description={bio.slice(0, 120)}
+  image={openGraphDefaultImage.url}
+  url={`${siteUrl}${pathname}`}
+/>
 
 <h1 class="font-bold text-center mb-20 text-5xl">About Me</h1>
 

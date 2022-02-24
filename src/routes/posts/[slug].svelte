@@ -1,9 +1,13 @@
 <script context="module">
+  import { page } from '$app/stores'
+  import Head from '$components/head.svelte'
   import { client } from '$lib/graphql-client'
   import { postQuery } from '$lib/graphql-queries'
+  import { siteMetadataStore } from '$stores/site-metadata'
   import { marked } from 'marked'
+  import { onMount } from 'svelte'
 
-  export const load = async ({ page: { params } }) => {
+  export const load = async ({ params }) => {
     const { slug } = params
     const variables = { slug }
     const { post } = await client.request(postQuery, variables)
@@ -18,13 +22,22 @@
 
 <script>
   export let post
+  let pathname
+
+  onMount(async () => {
+    pathname = $page.url.pathname
+  })
 
   const { title, date, tags, content, coverImage } = post
+  const { siteUrl, name: siteName } = $siteMetadataStore
 </script>
 
-<svelte:head>
-  <title>Blog | {title}</title>
-</svelte:head>
+<Head
+  title={`${title} · ${siteName}`}
+  description={content.slice(0, 120)}
+  image={coverImage.url}
+  url={`${siteUrl}${pathname}`}
+/>
 
 <div class="sm:-mx-5 md:-mx-10 lg:-mx-20 xl:-mx-38 mb-5">
   <img
