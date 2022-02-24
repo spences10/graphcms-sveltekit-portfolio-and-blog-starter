@@ -79,3 +79,26 @@ export const postQuery = gql`
     }
   }
 `
+
+export const socialsQuery = gql`
+  query GetSocials {
+    socials {
+      twitterUrl
+      youTubeUrl
+      facebookUrl
+    }
+  }
+`
+
+export const siteMetadataQuery = gql`
+  query GetProjectMetadatas {
+    projectMetadatas {
+      name
+      siteUrl
+      description
+      openGraphDefaultImage {
+        url
+      }
+    }
+  }
+`
