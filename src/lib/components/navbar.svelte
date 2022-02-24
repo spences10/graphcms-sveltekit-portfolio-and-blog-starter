@@ -38,9 +38,9 @@
       <a class="btn btn-ghost btn-sm rounded-btn" href="/about">
         About
       </a>
-      <a class="px-4" href="/">
+      <div class="px-4">
         <ThemeSelect />
-      </a>
+      </div>
     </div>
   </div>
 </div>

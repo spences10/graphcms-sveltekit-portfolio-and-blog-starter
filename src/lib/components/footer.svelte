@@ -1,7 +1,21 @@
-<script>
+<script context="module">
+  import {
+    authorsStore,
+    fetchAuthors,
+    fetchSocials,
+    socialsStore,
+  } from '$stores/site-metadata'
   import FacebookIcon from './facebook-icon.svelte'
   import TwitterIcon from './twitter-icon.svelte'
   import YouTubeIcon from './you-tube-icon.svelte'
+
+  fetchAuthors()
+  fetchSocials()
+</script>
+
+<script>
+  const { twitterUrl, youTubeUrl, facebookUrl } = $socialsStore
+  const { name: AuthorName } = $authorsStore
 </script>
 
 <footer
@@ -14,13 +28,13 @@
   </div>
   <div>
     <div class="grid grid-flow-col gap-4">
-      <a href="https://twitter.com">
+      <a href={twitterUrl}>
         <TwitterIcon />
       </a>
-      <a href="https://youtube.com">
+      <a href={youTubeUrl}>
         <YouTubeIcon />
       </a>
-      <a href="https://facebook.com">
+      <a href={facebookUrl}>
         <FacebookIcon />
       </a>
     </div>
@@ -28,7 +42,7 @@
   <div>
     <p>
       Copyright &copy; {`${new Date().getFullYear()}`} - All right reserved
-      by ME
+      {AuthorName}
     </p>
   </div>
 </footer>
