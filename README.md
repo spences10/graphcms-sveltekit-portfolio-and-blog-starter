@@ -3,6 +3,11 @@
 > Minimalist Developer Portfolio and Blog built with SvelteKit,
 > Tailwind, daisyUI, and deployed to Vercel.
 
+**Check out the [demo].**
+
+**Deploy your own** on Vercel, click the deploy button and remember to
+add in the Content API from _your_ GraphCMS project template:
+
 [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/spences10/developer-portfolio-and-blog&env=VITE_GRAPHQL_API)
 
 ## The stack
@@ -34,3 +39,8 @@ Install dependencies and run local dev server:
 npm i
 npm run dev
 ```
+
+<!-- Links -->
+
+[demo]:
+  https://sveltekit-portfolio-and-blog-starter-with-graphcms.vercel.app/
