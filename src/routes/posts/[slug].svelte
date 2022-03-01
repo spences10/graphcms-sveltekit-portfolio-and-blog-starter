@@ -8,7 +8,6 @@
     siteMetadataStore,
   } from '$stores/site-metadata'
   import { marked } from 'marked'
-  import { onMount } from 'svelte'
 
   export const load = async ({ params }) => {
     await fetchSiteMetadata()
@@ -27,11 +26,6 @@
 
 <script>
   export let post
-  let pathname
-
-  onMount(async () => {
-    pathname = $page.url.pathname
-  })
 
   const { title, date, tags, content, coverImage } = post
   const { siteUrl, name: siteName } = $siteMetadataStore || []
@@ -41,7 +35,7 @@
   title={`${title} · ${siteName}`}
   description={content.slice(0, 120)}
   image={coverImage.url}
-  url={`${siteUrl}${pathname}`}
+  url={`${siteUrl}${$page.url.pathname}`}
 />
 
 <div class="sm:-mx-5 md:-mx-10 lg:-mx-20 xl:-mx-38 mb-5">

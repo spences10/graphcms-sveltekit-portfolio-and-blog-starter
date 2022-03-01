@@ -8,7 +8,6 @@
     siteMetadataStore,
   } from '$stores/site-metadata'
   import { marked } from 'marked'
-  import { onMount } from 'svelte'
 
   export const load = async () => {
     await fetchSiteMetadata()
@@ -25,11 +24,6 @@
 
 <script>
   export let posts
-  let pathname
-
-  onMount(async () => {
-    pathname = $page.url.pathname
-  })
 
   const {
     siteUrl,
@@ -42,7 +36,7 @@
   title={`Blog posts! · ${siteName}`}
   description={`A list of recent blog posts.`}
   image={openGraphDefaultImage.url}
-  url={`${siteUrl}${pathname}`}
+  url={`${siteUrl}${$page.url.pathname}`}
 />
 
 <h1 class="text-4xl mb-10 font-extrabold">Blog posts</h1>
