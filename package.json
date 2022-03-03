@@ -19,7 +19,7 @@
     "@sveltejs/kit": "next",
     "@tailwindcss/typography": "0.5.2",
     "autoprefixer": "10.4.2",
-    "cssnano": "5.0.17",
+    "cssnano": "5.1.0",
     "daisyui": "2.2.2",
     "graphql": "16.3.0",
     "graphql-request": "4.0.0",
