@@ -22,7 +22,7 @@
     "cssnano": "5.1.5",
     "daisyui": "2.11.1",
     "graphql": "16.3.0",
-    "graphql-request": "4.1.0",
+    "graphql-request": "4.2.0",
     "husky": "7.0.4",
     "marked": "4.0.12",
     "postcss": "8.4.12",
