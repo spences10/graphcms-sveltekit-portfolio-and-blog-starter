@@ -10,7 +10,7 @@ specifiers:
   graphql: 16.3.0
   graphql-request: 4.2.0
   husky: 7.0.4
-  marked: 4.0.13
+  marked: 4.0.14
   postcss: 8.4.12
   postcss-load-config: 3.1.4
   prettier: 2.6.2
@@ -31,7 +31,7 @@ devDependencies:
   graphql: 16.3.0
   graphql-request: 4.2.0_graphql@16.3.0
   husky: 7.0.4
-  marked: 4.0.13
+  marked: 4.0.14
   postcss: 8.4.12
   postcss-load-config: 3.1.4_postcss@8.4.12
   prettier: 2.6.2
@@ -1222,8 +1222,8 @@ packages:
       sourcemap-codec: 1.4.8
     dev: true
 
-  /marked/4.0.13:
-    resolution: {integrity: sha512-lS/ZCa4X0gsRcfWs1eoh6dLnHr9kVH3K1t2X4M/tTtNouhZ7anS1Csb6464VGLQHv8b2Tw1cLeZQs58Jav8Rzw==}
+  /marked/4.0.14:
+    resolution: {integrity: sha512-HL5sSPE/LP6U9qKgngIIPTthuxC0jrfxpYMZ3LdGDD3vTnLs59m2Z7r6+LNDR3ToqEQdkKd6YaaEfJhodJmijQ==}
     engines: {node: '>= 12'}
     hasBin: true
     dev: true
