@@ -7,7 +7,7 @@ specifiers:
   autoprefixer: 10.4.5
   cssnano: 5.1.7
   daisyui: 2.14.2
-  graphql: 16.3.0
+  graphql: 16.4.0
   graphql-request: 4.2.0
   husky: 7.0.4
   marked: 4.0.14
@@ -22,14 +22,14 @@ specifiers:
   theme-change: 2.0.2
 
 devDependencies:
-  '@sveltejs/adapter-auto': 1.0.0-next.38
-  '@sveltejs/kit': 1.0.0-next.320_svelte@3.47.0
+  '@sveltejs/adapter-auto': 1.0.0-next.39
+  '@sveltejs/kit': 1.0.0-next.321_svelte@3.47.0
   '@tailwindcss/typography': 0.5.2_tailwindcss@3.0.24
   autoprefixer: 10.4.5_postcss@8.4.12
   cssnano: 5.1.7_postcss@8.4.12
   daisyui: 2.14.2_c01214db2e04c60602bae73116393d69
-  graphql: 16.3.0
-  graphql-request: 4.2.0_graphql@16.3.0
+  graphql: 16.4.0
+  graphql-request: 4.2.0_graphql@16.4.0
   husky: 7.0.4
   marked: 4.0.14
   postcss: 8.4.12
@@ -77,12 +77,12 @@ packages:
       picomatch: 2.3.0
     dev: true
 
-  /@sveltejs/adapter-auto/1.0.0-next.38:
-    resolution: {integrity: sha512-1//aiV/Wzebj+j5X8VLRs0vJUT3andc/0+IRQwy5ykOwjpNo5/Mj2RX8SA+t5nxBFYyJJf2kj6sszKA8LjRAQQ==}
+  /@sveltejs/adapter-auto/1.0.0-next.39:
+    resolution: {integrity: sha512-mscydZQzI9HZ+IjD+/yxyuKKd4/KxZv/M43BaeBvpuhToEe3crmatIHDQIZc0GBZZgTVpvk8yp3yIM8q3RugLw==}
     dependencies:
       '@sveltejs/adapter-cloudflare': 1.0.0-next.18
       '@sveltejs/adapter-netlify': 1.0.0-next.55
-      '@sveltejs/adapter-vercel': 1.0.0-next.49
+      '@sveltejs/adapter-vercel': 1.0.0-next.50
     dev: true
 
   /@sveltejs/adapter-cloudflare/1.0.0-next.18:
@@ -100,14 +100,14 @@ packages:
       tiny-glob: 0.2.9
     dev: true
 
-  /@sveltejs/adapter-vercel/1.0.0-next.49:
-    resolution: {integrity: sha512-Me0Zb10iBv+ySVMc0XgI7rdzwiMmeVHq48iVv3oXORa/et/efJVEknVSVk22q15XRqys7DhoPirf54Mz4jElFQ==}
+  /@sveltejs/adapter-vercel/1.0.0-next.50:
+    resolution: {integrity: sha512-yta0AkuWEr7qrm8LB34F4ZdCtMxj+cHD4huwrRYCgjv+PSJHLPwe7aH53+Mhrv6La0TgeyQ/f2lTyhBMXZXn9Q==}
     dependencies:
       esbuild: 0.14.30
     dev: true
 
-  /@sveltejs/kit/1.0.0-next.320_svelte@3.47.0:
-    resolution: {integrity: sha512-BDgF+gd73Gxls65rb3H2oacdQUrK8fM0X174t2kMfGS+MeNN6oZ+Kw+j0IJMzMaZSGco89+/wkPeArvDzM/2MQ==}
+  /@sveltejs/kit/1.0.0-next.321_svelte@3.47.0:
+    resolution: {integrity: sha512-Egdmxc+oxmKKhXAtLLHj6LnZQnfxgk/DpdRitDxDlSQq/hj1zSVswe3kGjPDaquNMkxXbvZcHwhbZvNnVTnWag==}
     engines: {node: '>=14.13'}
     hasBin: true
     peerDependencies:
@@ -965,7 +965,7 @@ packages:
     resolution: {integrity: sha512-qkIilPUYcNhJpd33n0GBXTB1MMPp14TxEsEs0pTrsSVucApsYzW5V+Q8Qxhik6KU3evy+qkAAowTByymK0avdg==}
     dev: true
 
-  /graphql-request/4.2.0_graphql@16.3.0:
+  /graphql-request/4.2.0_graphql@16.4.0:
     resolution: {integrity: sha512-uFeMyhhl8ss4LFgjlfPeAn2pqYw+CJto+cjj71uaBYIMMK2jPIqgHm5KEFxUk0YDD41A8Bq31a2b4G2WJBlp2Q==}
     peerDependencies:
       graphql: 14 - 16
@@ -973,14 +973,14 @@ packages:
       cross-fetch: 3.1.5
       extract-files: 9.0.0
       form-data: 3.0.1
-      graphql: 16.3.0
+      graphql: 16.4.0
     transitivePeerDependencies:
       - encoding
     dev: true
 
-  /graphql/16.3.0:
-    resolution: {integrity: sha512-xm+ANmA16BzCT5pLjuXySbQVFwH3oJctUVdy81w1sV0vBU0KgDdBGtxQOUd5zqOBk/JayAFeG8Dlmeq74rjm/A==}
-    engines: {node: ^12.22.0 || ^14.16.0 || >=16.0.0}
+  /graphql/16.4.0:
+    resolution: {integrity: sha512-tYDNcRvKCcfHREZYje3v33NSrSD/ZpbWWdPtBtUUuXx9NCo/2QDxYzNqCnMvfsrnbwRpEHMovVrPu/ERoLrIRg==}
+    engines: {node: ^12.22.0 || ^14.16.0 || ^16.0.0 || >=17.0.0}
     dev: true
 
   /has-flag/4.0.0:
