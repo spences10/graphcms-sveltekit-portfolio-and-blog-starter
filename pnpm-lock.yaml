@@ -9,7 +9,7 @@ specifiers:
   daisyui: 2.14.3
   graphql: 16.4.0
   graphql-request: 4.2.0
-  husky: 8.0.0
+  husky: 8.0.1
   marked: 4.0.15
   postcss: 8.4.13
   postcss-load-config: 3.1.4
@@ -30,7 +30,7 @@ devDependencies:
   daisyui: 2.14.3_cr4sis33dk4di3xnobyqnqmrf4
   graphql: 16.4.0
   graphql-request: 4.2.0_graphql@16.4.0
-  husky: 8.0.0
+  husky: 8.0.1
   marked: 4.0.15
   postcss: 8.4.13
   postcss-load-config: 3.1.4_postcss@8.4.13
@@ -1000,8 +1000,8 @@ packages:
     engines: {node: '>=8.12.0'}
     dev: true
 
-  /husky/8.0.0:
-    resolution: {integrity: sha512-4qbE/5dzNDNxFEkX9MNRPKl5+omTXQzdILCUWiqG/lWIAioiM5vln265/l6I2Zx8gpW8l1ukZwGQeCFbBZ6+6w==}
+  /husky/8.0.1:
+    resolution: {integrity: sha512-xs7/chUH/CKdOCs7Zy0Aev9e/dKOMZf3K1Az1nar3tzlv0jfqnYtu235bstsWTmXOR0EfINrPa97yy4Lz6RiKw==}
     engines: {node: '>=14'}
     hasBin: true
     dev: true
