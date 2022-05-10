@@ -7,7 +7,7 @@ specifiers:
   autoprefixer: 10.4.7
   cssnano: 5.1.7
   daisyui: 2.14.3
-  graphql: 16.4.0
+  graphql: 16.5.0
   graphql-request: 4.2.0
   husky: 8.0.1
   marked: 4.0.15
@@ -28,8 +28,8 @@ devDependencies:
   autoprefixer: 10.4.7_postcss@8.4.13
   cssnano: 5.1.7_postcss@8.4.13
   daisyui: 2.14.3_cr4sis33dk4di3xnobyqnqmrf4
-  graphql: 16.4.0
-  graphql-request: 4.2.0_graphql@16.4.0
+  graphql: 16.5.0
+  graphql-request: 4.2.0_graphql@16.5.0
   husky: 8.0.1
   marked: 4.0.15
   postcss: 8.4.13
@@ -965,7 +965,7 @@ packages:
     resolution: {integrity: sha512-qkIilPUYcNhJpd33n0GBXTB1MMPp14TxEsEs0pTrsSVucApsYzW5V+Q8Qxhik6KU3evy+qkAAowTByymK0avdg==}
     dev: true
 
-  /graphql-request/4.2.0_graphql@16.4.0:
+  /graphql-request/4.2.0_graphql@16.5.0:
     resolution: {integrity: sha512-uFeMyhhl8ss4LFgjlfPeAn2pqYw+CJto+cjj71uaBYIMMK2jPIqgHm5KEFxUk0YDD41A8Bq31a2b4G2WJBlp2Q==}
     peerDependencies:
       graphql: 14 - 16
@@ -973,13 +973,13 @@ packages:
       cross-fetch: 3.1.5
       extract-files: 9.0.0
       form-data: 3.0.1
-      graphql: 16.4.0
+      graphql: 16.5.0
     transitivePeerDependencies:
       - encoding
     dev: true
 
-  /graphql/16.4.0:
-    resolution: {integrity: sha512-tYDNcRvKCcfHREZYje3v33NSrSD/ZpbWWdPtBtUUuXx9NCo/2QDxYzNqCnMvfsrnbwRpEHMovVrPu/ERoLrIRg==}
+  /graphql/16.5.0:
+    resolution: {integrity: sha512-qbHgh8Ix+j/qY+a/ZcJnFQ+j8ezakqPiHwPiZhV/3PgGlgf96QMBB5/f2rkiC9sgLoy/xvT6TSiaf2nTHJh5iA==}
     engines: {node: ^12.22.0 || ^14.16.0 || ^16.0.0 || >=17.0.0}
     dev: true
 
