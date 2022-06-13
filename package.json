@@ -24,7 +24,7 @@
     "graphql": "16.5.0",
     "graphql-request": "4.3.0",
     "husky": "8.0.1",
-    "marked": "4.0.16",
+    "marked": "4.0.17",
     "postcss": "8.4.14",
     "postcss-load-config": "4.0.1",
     "prettier": "2.6.2",
