@@ -20,7 +20,7 @@
     "@tailwindcss/typography": "0.5.4",
     "autoprefixer": "10.4.7",
     "cssnano": "5.1.12",
-    "daisyui": "2.19.1",
+    "daisyui": "2.20.0",
     "graphql": "16.5.0",
     "graphql-request": "4.3.0",
     "husky": "8.0.1",
