@@ -18,7 +18,7 @@
     "@sveltejs/adapter-auto": "next",
     "@sveltejs/kit": "next",
     "@tailwindcss/typography": "0.5.4",
-    "autoprefixer": "10.4.7",
+    "autoprefixer": "10.4.8",
     "cssnano": "5.1.12",
     "daisyui": "2.20.0",
     "graphql": "16.5.0",
