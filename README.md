@@ -42,5 +42,4 @@ npm run dev
 
 <!-- Links -->
 
-[demo]:
-  https://sveltekit-portfolio-and-blog-starter-with-graphcms.vercel.app/
+[demo]: https://sveltekit-portfolio-and-blog-starter-with-graphcms.vercel.app/
