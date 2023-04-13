@@ -8,7 +8,7 @@
 </script>
 
 <Head
-	title={`${data.metadata.title} · ${data.metadata.siteName}`}
+	title={`${data.post.title} · ${data.metadata.name}`}
 	description={data.post.content.slice(0, 120)}
 	image={data.post.coverImage.url}
 	url={$page.url.toString()}

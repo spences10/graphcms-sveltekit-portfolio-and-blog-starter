@@ -8,7 +8,7 @@
 </script>
 
 <Head
-	title={`Projects · ${data.metadata.siteName}`}
+	title={`Projects · ${data.metadata.name}`}
 	description={`A list of recent projects.`}
 	image={data.metadata.openGraphDefaultImage.url}
 	url={$page.url.toString()}

@@ -8,7 +8,7 @@
 </script>
 
 <Head
-	title={`About · ${data.metadata.siteName}`}
+	title={`About · ${data.metadata.name}`}
 	description={data.authors[0].bio.slice(0, 120)}
 	image={data.metadata.openGraphDefaultImage.url}
 	url={$page.url.toString()}

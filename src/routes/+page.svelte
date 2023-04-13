@@ -7,7 +7,7 @@
 </script>
 
 <Head
-	title={`${data.metadata.siteName} · ${data.authors.name}`}
+	title={`${data.metadata.name} · ${data.authors[0].name}`}
 	description={data.metadata.description}
 	image={data.metadata.openGraphDefaultImage.url}
 	url={`${data.metadata.siteUrl}`}
