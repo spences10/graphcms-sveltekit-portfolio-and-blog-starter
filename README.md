@@ -5,6 +5,10 @@
 
 **Check out the [demo].**
 
+If you've come here from freeCodeCamp, you can check out the updated
+changes to work with the new routing in SvelteKit here:
+https://github.com/spences10/graphcms-sveltekit-portfolio-and-blog-starter/pull/101/files
+
 **Deploy your own** on Vercel, click the deploy button and remember to
 add in the Content API from _your_ GraphCMS project template:
 
@@ -42,4 +46,5 @@ npm run dev
 
 <!-- Links -->
 
-[demo]: https://sveltekit-portfolio-and-blog-starter-with-graphcms.vercel.app/
+[demo]:
+	https://sveltekit-portfolio-and-blog-starter-with-graphcms.vercel.app/
